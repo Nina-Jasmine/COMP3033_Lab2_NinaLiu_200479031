@@ -1,0 +1,18 @@
+{
+  "name": "lab2",
+  "version": "1.0.0",
+  "description": "Lab 2 Node.js app using connect and url",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "connect": "^3.7.0"
+  }
+}
