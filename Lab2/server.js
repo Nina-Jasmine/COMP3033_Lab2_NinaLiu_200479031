@@ -1,4 +1,4 @@
- // Create a new connect application
+ // Link to the connect and url packages
 const connect = require("connect");
 const { json } = require("stream/consumers");
 
@@ -46,7 +46,7 @@ switch (method) {
 
 
 
-app.use(Lab2Handler);
+app.use("lab2", Lab2Handler);
 
 // Start the server on port 3000
 const PORT = 3000;      
